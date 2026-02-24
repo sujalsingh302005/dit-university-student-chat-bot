@@ -1,10 +1,8 @@
-# dit-university-student-chat-bot
-AI-powered voice-enabled Mental Health Assistant for DIT University built using Python, Tkinter and locally hosted Mistral LLM via Ollama with real-time streaming responses.
 # 🧠 DIT University Mental Health AI Assistant
 
 An AI-powered **voice-enabled desktop chatbot** developed for DIT University students using a locally hosted **Mistral Large Language Model (LLM)**.
 
-This project demonstrates real-world AI system integration by combining a local LLM, streaming responses, speech output, and a responsive desktop interface built with Python.
+This project demonstrates real-world AI system integration by combining a local LLM, real-time streaming responses, speech output, and a responsive desktop interface built with Python.
 
 The assistant runs completely **offline**, ensuring privacy, fast performance, and independence from paid cloud APIs.
 
@@ -20,6 +18,14 @@ The system integrates:
 * Real-time response streaming
 * Voice interaction
 * Multithreaded desktop application design
+
+---
+
+## 🎥 Demo Video
+
+Watch the AI Assistant in action:
+
+👉 **https://drive.google.com/file/d/1xWaPujdX3wSzxLOTFpaUxI6PSsLy7n3H/view?usp=sharing**
 
 ---
 
@@ -80,14 +86,9 @@ Voice Output + Chat Display
 
 ## 📂 Project Structure
 
-dit-university-mental-health-ai-assistant/
+dit-university-student-chat-bot/
 
-gui/
-  chat_gui.py
-
-screenshots/
-  chatbot.png
-
+chat_gui.py
 README.md
 requirements.txt
 .gitignore
@@ -98,12 +99,9 @@ requirements.txt
 
 ### 1️⃣ Install Ollama
 
-Download and install Ollama:
-
 https://ollama.com
 
 Verify installation:
-
 ollama --version
 
 ---
@@ -112,19 +110,15 @@ ollama --version
 
 ollama pull mistral
 
-(This is a one-time setup.)
-
 ---
 
 ### 3️⃣ Start AI Server
 
 ollama serve
 
-Keep this terminal running.
-
 ---
 
-### 4️⃣ Install Python Dependencies
+### 4️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
@@ -132,13 +126,13 @@ pip install -r requirements.txt
 
 ### 5️⃣ Run Application
 
-python gui/chat_gui.py
+python chat_gui.py
 
 ---
 
 ## 🎙️ Voice Assistant Capability
 
-The assistant converts AI responses into speech using a queued voice system that:
+The assistant converts AI responses into speech using a queued voice system which:
 
 * Prevents overlapping audio
 * Maintains natural conversation flow
@@ -179,7 +173,7 @@ Unlike cloud-based AI assistants:
 
 ## 👨‍💻 Author
 
-Sujal Singh
+**Sujal Singh**
 B.Tech CSE — DIT University
 AI & Software Development Enthusiast
 
