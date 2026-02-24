@@ -1,4 +1,4 @@
-# 🧠 DIT University Mental Health AI Assistant
+# 🧠 DIT University Student ChatBot
 
 An AI-powered **voice-enabled desktop chatbot** developed for DIT University students using a locally hosted **Mistral Large Language Model (LLM)**.
 
